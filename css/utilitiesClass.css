@@ -1,0 +1,46 @@
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-between{
+  justify-content: space-between
+}
+ .flex-1{
+   flex: 1;
+ }
+   /* button */
+   .btn{
+     padding: 0.20rem 0.70rem;
+     font-size: 1rem;
+      font-family: 'Poppins', sans-serif;;
+     border: 2px solid transparent;
+     outline: none;
+     cursor: pointer;
+     text-transform: uppercase;
+     transition: all 0.3s ease;
+   }
+   .btn-primary{
+     background-color: var(--primary);
+     color: var(--dark);
+   }
+   .btn-primary:hover{
+     background: transparent;
+     border: 2px solid var(--primary) ;
+    color: var(--primary);
+   }
+   .btn-secondary{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--pure);
+    padding: 0.90rem 1.10rem;
+    font-size: 1.20rem;
+   }
+   .btn-secondary:hover{
+     background-color:var(--primary) ;
+     color: var(--dark);
+   }

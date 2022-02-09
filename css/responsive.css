@@ -1,0 +1,262 @@
+
+
+/* responsive using  media queary */
+/* @media (min-width: 576px)
+{
+    .container{
+        max-width: 540px;
+    }
+} */
+
+@media (min-width:576px)
+{
+    .container{
+        max-width: 540px;
+    }
+    .times{
+        top: 59px;
+        right: 160px;
+    }
+}
+@media (min-width:768px)
+{
+    .container{
+        max-width: 720px;
+    }
+    .times{
+        top: 59px;
+        right: 160px;
+    }
+}
+
+@media (min-width:992px)
+{
+    .container{
+        max-width: 960px;
+    }
+    .times{
+        top: 59px;
+    right: 160px;
+    }
+}
+
+@media (min-width:1200px)
+{
+    .container{
+        max-width: 1152px;
+    }
+    .times{
+        top: 59px;
+    right: 160px;
+    }
+    .times{
+        top: 59px;
+        right: 160px;
+    }
+}
+
+@media (max-width:1190px)
+{
+    header #main-nav{
+        display: none;
+
+    }
+    .hamberger{
+        display: block;
+    }
+
+    /* ******************** */
+    .hero-left img{
+        width: 400px;
+    
+    }
+     .hero{
+        padding-top: 10rem;
+        padding-bottom: 4rem;
+    }
+    .hero-right{
+        margin-right:6rem;
+    }
+    .hero-right h1{
+        font-size: 2rem;
+        line-height: normal;
+    }
+    .hero-right h6{
+      width: 300px;
+    }
+    header{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 17% 87% ,0 100%)
+    }
+    .animation-control
+    {
+        height: 30px;
+    }
+
+  .about-left img{
+      width: 350px;
+      padding: 1rem 3rem;
+      margin-right: 2rem ;
+  }
+  .times{
+    top: 59px;
+    right: 142px;
+}
+  
+  
+/* .contact-box-item a{
+    margin-left: 4rem;
+}
+.contact-box-item .email
+{
+  margin-left: 6.6rem;
+}
+.contact-box-item .whatsapp{
+    margin-left: 6rem;
+}
+.contact-box-item .collage{
+    margin-left: 7rem;
+} */
+
+}
+
+@media(max-width:780px)
+{
+    .hero-right{
+        margin-left:-7rem ;
+    }
+    .hero-right p{
+        font-size: 0.67rem;
+        line-height: 1.30;
+    
+    }
+}
+@media(max-width:750px)
+{
+    .hero-right{
+        margin-left:-7rem ;
+    }
+    .hero-right p{
+        font-size: 0.55rem;
+        padding-right:  4rem
+    
+    }
+    .about-right p{
+    
+       font-size: 1rem;
+       margin-right: 2rem;
+       padding-right: 1rem;
+      }
+      .social-link{
+          margin-right: 3rem;
+      }
+      .about-left img{
+        width: 300px;
+        padding: 1rem 3rem;
+      }
+      .nav-menu {
+          margin-top: -0.23rem;
+      }
+      .mobile-nav ul li{
+        padding-top: 0rem;
+      }
+      .mobile-nav ul{
+          margin-top: 0rem;
+      }
+      .mobile-nav ul li a{
+          font-size: 1rem;
+          margin-top: -1rem;
+         
+      }
+      .mobile-socail-link{
+    
+          margin-left: 8rem;
+          margin-top: -2.6rem;
+      }
+}
+@media(max-width:670px){
+    .mobile-nav ul li a{
+        font-size: 0.80rem;
+    }
+}
+    
+
+/* mobile */
+@media(max-width:576px)
+{
+    .hero{
+        flex-direction: column;
+    }
+    
+header {
+    background-color: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 64% 95% ,0 100%);
+}
+.hero-right p{
+    font-size: 0.70rem;
+    line-height: 1.23;
+
+}
+.about-right p{
+  font-size: 1rem;
+  padding: 0.34rem 2rem;
+}
+.social-link a{
+    margin-right: 1rem;
+}
+.hero .hero-right{
+    position:absolute;
+    top:460px;
+    padding: 0 1rem;
+    background: linear-gradient(
+        rgba(0,0,0,0),rgba(0,0,0,0.6)
+    );
+} 
+.hero-left{
+    margin-top: -5rem;
+    margin-right: -6rem;
+    padding-bottom: 3rem;
+}
+.hero-right{
+    margin-left: 4rem;
+}
+.hero-left img{
+    margin-right: -2rem;
+    width: 440px;
+   
+} .about-inner{
+    flex-direction: column;
+}
+  .about-left img{
+ margin-left: 2.30rem;
+ padding: 1rem 2rem;
+ }
+ .about-right{
+     text-align: center;
+ }
+ .about-right h6{
+     margin-bottom: 1rem;
+ }
+ #Skils {
+     margin-top: 1rem;
+     padding: 1rem 1rem;
+     padding-bottom: 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 96% ,0 100%);
+}
+  
+  .filter-list{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+  }
+   .project-filter{
+       height: 103px;
+   }
+   .filter-list li{
+       padding-bottom:0.90rem;
+   }
+   .progress-wrap{
+       margin:1.87rem 0rem;
+   }
+   .tool-tip{
+font-size: 0.80rem;
+   }
+}
